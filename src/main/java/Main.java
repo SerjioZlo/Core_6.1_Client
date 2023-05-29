@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Main {
     static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
-        String host = "netology.homework";
+        String host = "localhost";
         int port = 8080;
 
         try (Socket clientSocket = new Socket(host, port);
